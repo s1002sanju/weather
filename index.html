@@ -4,23 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h1>Weather Dashboard</h1>
-        <form>
-            <input type="text" id="city" placeholder="Enter city name">
-            <button id="search-btn">Search</button>
-        </form>
-        <div class="weather-details">
-            <h2 id="city-name"></h2>
-            <p id="weather-description"></p>
-            <p id="temperature"></p>
-            <p id="humidity"></p>
-            <img id="weather-icon" src="">
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button id="searchButton">Search</button>
+        <div id="weatherResult" class="weather-result">
+            <!-- Weather result will be displayed here -->
         </div>
-        <div class="error-message" id="error-message"></div>
     </div>
     <script src="script.js"></script>
 </body>
