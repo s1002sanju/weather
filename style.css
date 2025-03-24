@@ -1,46 +1,45 @@
+/* General styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+    text-align: center;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
 }
 
-.container {
-    max-width: 600px;
-    margin: auto;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #fff;
+/* Heading */
+h1 {
+    color: #333;
 }
 
-input[type="text"] {
+/* Input field */
+input {
     padding: 10px;
-    margin-right: 10px;
-    width: calc(100% - 150px);
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
+/* Button */
 button {
+    margin-left: 10px;
     padding: 10px 15px;
-    background-color: #007BFF;
-    border: none;
+    font-size: 1em;
     color: white;
-    cursor: pointer;
+    background-color: #007bff;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 button:hover {
     background-color: #0056b3;
 }
 
-.weather-result {
+/* Weather info */
+p {
+    font-size: 1.2em;
+    color: #555;
     margin-top: 20px;
-    padding: 20px;
-    border: 1px solid #007BFF;
-    border-radius: 5px;
-}
-
-.error {
-    color: red;
 }
